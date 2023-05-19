@@ -1,0 +1,142 @@
+@font-face {
+    font-display: block;
+    font-family: "TeX Gyre Heros Condensed";
+    src: url("https://type.cargo.site/files/TeXGyreHerosCondensed-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: #cec6ff;
+}
+
+input[type=text]:hover {
+    border: 2px solid #9422ff;
+    background-color: #cec6ff;
+}
+
+header {
+    background-color: #948ce5;
+    background-image: url('https://freight.cargo.site/w/1000/i/342d3ecd769707cc69f3765beaeaddd06e772fe37d9d934f849e071e1889e817/feeble-basic-logo.png');
+    background-attachment: fixed;
+    background-size: 62px 21px;
+    text-align: center;
+    color: #e162d9;
+}
+
+nav {
+    background-color: #b1a7f1;
+    font-size: 24px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: "TeX Gyre Heros Condensed";
+    padding: 15px;
+    font-size: 42px;
+    color: #282828;
+    text-align: center;
+}
+
+ul {
+    font-family: "TeX Gyre Heros Condensed";
+    padding: 15px;
+    font-size: 24px;
+    color: #282828;
+    text-align: left;
+}
+
+h2 {
+    font-family: "TeX Gyre Heros Condensed";
+    padding: 15px;
+    font-size: 32px;
+    color: #282828;
+}
+
+footer {
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #391e56;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: "TeX Gyre Heros Condensed";
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width:400px;
+    background-color: #9d9ef3;
+    border-radius: 24px;
+    text-align: center;
+}
+
+button {
+    background-color: #f558d6;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 7px 12px;
+    margin: 20px auto;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover, button:active {
+    background-color: #ff00cd;
+}
+
+.MoreLink:link {
+    background-color: #7ada21;
+    color: white;
+    padding: 7px 12px;
+    border: 3px solid black;
+    margin: 4px 4px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.MoreLink:hover, .MoreLink:active {
+    background-color: #80ff08;
+}
+
+.EditLink:link {
+    background-color: #2162da;
+    color: white;
+    padding: 7px 12px;
+    border: 3px solid black;
+    margin: 4px 4px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.EditLink:hover, .EditLink:active {
+    background-color: #0890ff;
+}
+
+
+
